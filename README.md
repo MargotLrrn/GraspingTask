@@ -9,3 +9,6 @@ In order to run everything here is the different steps necessary :
 - in a second one : rosrun rosserialpython serial_node.py /dev/tty/USB0 (USB0 should be replaced by the USB port of the arduino uno port)
 - in another terminale : rosrun control firsttry
 - in a last terminale : ./objectdetection
+
+
+Two other files are in this branch : the h5 file is the neural network trained with tensorflows and the fingerstests.csv file is the file with the fingers force data
